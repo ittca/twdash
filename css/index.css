@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'tw';
+    src: url('../admin/fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../admin/fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'twmedium';
+    src: url('../admin/fonts/roboto-medium-webfont.woff2') format('woff2'),
+         url('../admin/fonts/roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  @font-face {
+    font-family: 'twbold';
+    src: url('../admin/fonts/roboto-black-webfont.woff2') format('woff2'),
+         url('../admin/fonts/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .darktheme{
+    --text-main:#F5F5F5;
+    --text-sec: black;
+    --text-third: #2a2a2a;
+    --bg-main:#25282F;
+    --bg-sec:#0E1217;
+    --dark: invert(1);
+    --max-width: 1300px;
+  }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'tw', 'sans-serif';
+    color:var(--text-main);
+    position:relative;
+}
+body {
+  display: flex;
+  background: var(--bg-main);
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.container{margin-top:100px;}
+.container form{
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+.container h1{
+  color:var(--text-main);
+  font-family: 'tw', 'sans-serif';
+  text-align: center;
+  margin-bottom:30px;
+}
+.container label{
+  font-family: 'tw', 'sans-serif';
+  font-size:18px;
+}
+.container h1{
+  font-family:'sans-serif';
+}
+input[type="email"], input[type="password"] {
+  font-family: 'tw', 'sans-serif';
+  width: 100%;
+  padding: 8px 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="submit"] {
+  font-family: 'tw', 'sans-serif';
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 7px 30px;
+  border-radius: 5px;
+  margin-top:20px;
+  cursor: pointer;
+}
+#messages{
+  margin-top: 20px;
+  color: #F5F5F5;
+}

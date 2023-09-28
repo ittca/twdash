@@ -1,0 +1,34 @@
+*{
+    padding:0;
+    margin:0;
+}
+header{
+    background:#25282F;
+}
+body{
+    background: #0E1217;
+}
+.flex{
+    display:flex;
+}
+p{
+    color:whitesmoke;
+}
+#logoname{
+    border-right: 0.1px solid rgba(0,0,0,0.3);
+    height: 43px;
+    width: 100px;
+}
+.menutext{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#menuright{
+    right:0;
+    position: absolute;
+}
+label{
+    color:whitesmoke;
+}
